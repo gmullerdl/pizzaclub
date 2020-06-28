@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-06-28_1708",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -45,7 +45,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 18,
+    "uniqCompNum": 19,
     "versionPublish": "4.12.4",
     "favicon": false,
     "canonical-url": false,
@@ -296,7 +296,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global once=\"menu\" always-top position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Mostrar Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Altura Logo\" inline name=\"logoHeight\" min=\"35\" max=\"120\" value=\"45\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Ancho Logo\" inline name=\"logoWidth\" min=\"35\" max=\"120\" value=\"45\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Mostrar Marca\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botón(es)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked>\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\">Izquierda</option>\n            <option value=\"right\" selected>Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Color Menú &quot;Hamburguesa&quot;\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand && !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo-retro-pagina-vectorizacion-min-90x90.png\" layout=\"responsive\" width=\"45\" height=\"45\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo-retro-pagina-vectorizacion-min-90x90.png\" alt=\"Mobirise\" title>\n              </amp-img>\n          </span>\n          <p mbr-text mbr-theme-style=\"display-5\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\">PARRAS PIZZA CLUB</p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-primary dropdown-toggle\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">\n                        Mobirise AMP</a>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"text-primary dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a>\n                        <a class=\"text-primary dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a>\n                    </div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Servicios</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"page1.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Sobre Nosotros</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                  Contacto\n                </a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Mostrar Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Altura Logo\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"45\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Ancho Logo\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"45\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Mostrar Marca\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Mostrar Botón(es)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked=\"\">\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\">Izquierda</option>\n            <option value=\"right\" selected=\"\">Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Color Menú &quot;Hamburguesa&quot;\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo-retro-pagina-vectorizacion-min-90x90.png\" layout=\"responsive\" width=\"45\" height=\"45\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo-retro-pagina-vectorizacion-min-90x90.png\" alt=\"Mobirise\" title=\"\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-5\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\">PARRAS PIZZA CLUB</p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-primary dropdown-toggle\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">\n                        Mobirise AMP</a>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"text-primary dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a>\n                        <a class=\"text-primary dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a>\n                    </div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Servicios</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"page1.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Sobre Nosotros</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                  Contacto\n                </a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
           "_cid": "s3fnbRRqt3",
           "_anchor": "menu2-b",
           "_protectedParams": [],
@@ -333,13 +333,136 @@
             "background-color": "@bgColor"
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text=\"\">\n            Mobirise es una de las herramientas de desarrollo de sitios web más fáciles disponibles en la actualidad. También le da la libertad de desarrollar tantos sitios web como desee, ya que es una aplicación de escritorio.\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text>\n            Mobirise es una de las herramientas de desarrollo de sitios web más fáciles disponibles en la actualidad. También le da la libertad de desarrollar tantos sitios web como desee, ya que es una aplicación de escritorio.\n        </div>\n    </div>\n</section>",
           "_cid": "s3fIJFuFCU",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "content4-d"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            ".item, amp-img": {
+              "cursor": "pointer"
+            },
+            ".item-wrapper": {
+              "width": "100%",
+              "position": "relative"
+            },
+            "img": {
+              "object-fit": "cover"
+            },
+            "amp-img span": {
+              "--space1": "0.5rem",
+              "--space2": "1rem",
+              "position": "absolute",
+              "left": "var(--space2)",
+              "bottom": "var(--space2)",
+              "padding": "var(--space1)",
+              "background-color": "@textBg",
+              "color": "contrast(@textBg, #000000, #ffffff, 50%)",
+              "z-index": "11"
+            },
+            ".mbr-text": {
+              "width": "auto"
+            },
+            ".amp-carousel-button": {
+              "& when not (@enableArrow)": {
+                "display": "none"
+              },
+              "& when (@enableArrow)": {
+                "@fillSVG": "replace(\"@{controlsColor}\", \"#\", \"%23\")",
+                "opacity": "@controlsOpacity",
+                "background-color": "@controlsBg",
+                "&.amp-carousel-button-next": {
+                  "background-image": "url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='@{fillSVG}'%3E%3Cpath d='M9 3L7.94 4.06l4.19 4.19H3v1.5h9.13l-4.19 4.19L9 15l6-6z'/%3E%3C/svg%3E\")",
+                  "right": "2rem"
+                },
+                "&.amp-carousel-button-prev": {
+                  "background-image": "url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='@{fillSVG}'%3E%3Cpath d='M15 8.25H5.87l4.19-4.19L9 3 3 9l6 6 1.06-1.06-4.19-4.19H15v-1.5z'/%3E%3C/svg%3E\")",
+                  "left": "2rem"
+                },
+                "&:hover": {
+                  "opacity": "1"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& when (@enableBullets)": {
+                ".dots-wrapper": {
+                  "position": "absolute",
+                  "bottom": "5%",
+                  "left": "50%",
+                  "transform": "translateX(-50%)",
+                  "z-index": "11"
+                },
+                ".dots span": {
+                  "border-color": "@controlsBg",
+                  "background-color": "@controlsColor",
+                  "opacity": "@controlsOpacity"
+                }
+              },
+              "& when (@enablePreview)": {
+                ".preview-wrapper": {
+                  "padding": "0 1rem",
+                  "margin-top": "2rem"
+                },
+                ".img-prw-wrapper": {
+                  "flex-basis": "0",
+                  "flex-grow": "1",
+                  "max-width": "15%",
+                  "min-width": "10%",
+                  "max-height": "120px",
+                  "img": {
+                    "pointer-events": "none"
+                  },
+                  "amp-img": {
+                    "&:after": {
+                      "content": "\"\"",
+                      "position": "absolute",
+                      "left": "0",
+                      "right": "0",
+                      "top": "0",
+                      "bottom": "0",
+                      "background-color": "white",
+                      "opacity": "0.5",
+                      "z-index": "2",
+                      "transition": "0.4s"
+                    }
+                  },
+                  "amp-img.selected": {
+                    "&:after": {
+                      "opacity": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "slider5",
+          "_customHTML": "<section class=\"amp-lightbox-carousel slider5\" group=\"Shop\" plugins=\"amp-main, amp-carousel, amp-lightbox-gallery, amp-bind\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"id\" name=\"id\">\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Mostrar Texto\" checked>\n\t\t<input type=\"color\" name=\"textBg\" title=\"Text Bg\" condition=\"showText\" value=\"#4ea2e3\">\n\t\t<header>Controls</header>\n\t\t<input type=\"checkbox\" name=\"enableBullets\" title=\"Bullets\" condition=\"!enablePreview\">\n\t\t<input type=\"checkbox\" name=\"enablePreview\" title=\"Preview\" condition=\"!enableBullets\">\n\t\t<input type=\"checkbox\" name=\"enableArrow\" title=\"Arrows\" checked>\n\t\t<input type=\"checkbox\" name=\"autoplay\" title=\"Autoplay\">\n\t\t<input type=\"range\" name=\"delay\" title=\"Delay\" min=\"1\" max=\"10\" step=\"1\" value=\"3\" condition=\"autoplay\">\n\t\t<input type=\"color\" title=\"Controls Color\" name=\"controlsColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Controls Bg Color\" name=\"controlsBg\" value=\"#000000\">\n\t\t<input type=\"range\" name=\"controlsOpacity\" title=\"Opacity\" min=\"0\" max=\"1\" value=\"0.5\" step=\"0.1\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required>\n\t\t\t<input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background5.jpg\">\n\t\t\t<input type=\"color\" title=\"Color de Fondo\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type == 'image'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type == 'image'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\t<amp-state id=\"selected{{id}}\">\n\t\t<script type=\"application/json\">\n\t\t\t\t{\n\t\t\t\t\t\"slide\": 0\n\t\t\t\t}\n\t\t\t</script>\n\t</amp-state>\n\t<div class=\"container\">\n\t\t<h3 class=\"mbr-fonts-style mbr-section-title mbr-light align-center mbr-pb-3 mbr-pt-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">Slider With Lightbox</h3>\n\t\t<h4 class=\"mbr-fonts-style mbr-section-subtitle mbr-light align-center mbr-pb-3\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet,\n\t\t\tconsectetur adipisicing elit. Tempore incidunt molestias, vitae recusandae error ipsam distinctio, ipsum.\n\t\t</h4>\n\t\t<amp-carousel id=\"wizard-carousel{{id}}\" width=\"450\" height=\"300\" layout=\"responsive\" type=\"slides\" loop on=\"slideChange:AMP.setState({selected{{id}}: {slide: event.index}})\" data-autoplay=\"{{autoplay}}\" data-delay=\"{{delay*1000}}\">\n\t\t\t<div class=\"item slider-image mbr-flex\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox src=\"@THEME_PATH@/components/_images/background4.jpg\" layout=\"responsive\" width=\"450.281425891182\" height=\"300\" alt=\"image\" class=\"placeholder-loader lb-image\">\n\t\t\t\t\t\t<span mbr-text class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit.</span>\n\t\t\t\t\t\t<div placeholder class=\"placeholder\"></div>\n\t\t\t\t\t\t<img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/background4.jpg\" alt>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t</amp-carousel>\n\t\t<div class=\"dots-wrapper mbr-row\" mbr-if=\"enableBullets\">\n\t\t\t<div class=\"dots\">\n\t\t\t\t<span class=\"dot current\" on=\"tap:wizard-carousel{{id}}.goToSlide(index=0)\" role=\"button\" tabindex=\"0\" data-amp-bind-class=\"selected{{id}}.slide == 0 ? &quot;current&quot; : &quot;&quot;\"></span>\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t<div class=\"preview-wrapper mbr-row mbr-jc-c\" mbr-if=\"enablePreview\">\n\t\t\t<div class=\"img-prw-wrapper\">\n\t\t\t\t<amp-img src=\"@THEME_PATH@/components/_images/background4.jpg\" layout=\"responsive\" width=\"150.093808630394\" height=\"100\" alt=\"image\" class=\"placeholder-loader selected\" data-amp-bind-class=\"selected{{id}}.slide == 0 ? &quot;selected&quot; : &quot;&quot;\" on=\"tap:wizard-carousel{{id}}.goToSlide(index=0)\" role=\"button\" tabindex=\"0\">\n\t\t\t\t\t<div placeholder class=\"placeholder\"></div>\n\t\t\t\t\t<img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/background4.jpg\" alt>\n\t\t\t\t</amp-img>\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "s3fLuIwGlu",
+          "_anchor": "slider5-i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,
