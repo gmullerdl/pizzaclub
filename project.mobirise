@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-06-28_1708",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -45,17 +45,34 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 25,
+    "uniqCompNum": 26,
     "versionPublish": "5.2.0",
     "favicon": false,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
-    "cookiesAlert": false,
-    "gdpr": false,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "google-analytics": "<!DOCTYPE html>\n<html lang=\"en\" ⚡>\n  <head>\n    <title>\n      DIY Template\n    </title>\n    <style amp-boilerplate>\n          body {\n        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;\n        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;\n        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;\n        animation: -amp-start 8s steps(1, end) 0s 1 normal both\n    }\n\n    @-webkit-keyframes -amp-start {\n        from {\n            visibility: hidden\n        }\n\n        to {\n            visibility: visible\n        }\n    }\n\n    @-moz-keyframes -amp-start {\n        from {\n            visibility: hidden\n        }\n\n        to {\n            visibility: visible\n        }\n    }\n\n    @-ms-keyframes -amp-start {\n        from {\n            visibility: hidden\n        }\n\n        to {\n            visibility: visible\n        }\n    }\n\n    @-o-keyframes -amp-start {\n        from {\n            visibility: hidden\n        }\n\n        to {\n            visibility: visible\n        }\n    }\n\n    @keyframes -amp-start {\n        from {\n            visibility: hidden\n        }\n\n        to {\n            visibility: visible\n        }\n    }\n\n    </style>\n    <meta name=\"twitter:card\">\n    <meta content=\"article\" property=\"og:type\">\n    <meta content=\"DIY Template\" property=\"og:title\">\n    <meta content=\"DIY Template made by Ampstor\" property=\"og:description\">\n    <meta content=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/stories%2FYKUnA-yA2.html?alt=media&token=310aa65e-72b9-456e-8ec5-db6356a8a7f0\" property=\"og:url\">\n    <meta content=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/users%2FDIWpCUo7OgStZM0s4pmd70Q0e753%2Fimages%2Fpngocean.com%20(1).png?alt=media&token=14ba0aae-7259-4d1c-8efd-17a44d130aa4\" property=\"og:image\">\n    <noscript>\n      <style amp-boilerplate>\n        body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}\n      </style>\n    </noscript>\n    <style amp-custom>\n          :root {\n        --color-error: #B00020;\n        --color-primary: #005AF0;\n    }\n    amp-story {\n        color: white;\n        border: none;\n    }\n    \n    .image-fit-contain img {\n      object-fit: contain;\n     }\n     \n    .image-fit-cover img {\n      object-fit: cover;\n     }\n     \n    .image-fit-fill img {\n      object-fit: fill;\n     }\n     \n     div.center {\n      justify-content: center;\n      align-items: center;\n    }\n    \n    div.top-center {\n      justify-content: center;\n      align-items: flex-start;\n    }\n   \n    div.bottom-center {\n      justify-content: center;\n      align-items: flex-end;\n    }\n    \n    div.center-left {\n      justify-content: start;\n      align-items: center;\n    }\n    \n    div.top-left {\n      justify-content: start;\n      align-items: flex-start;\n    }\n   \n    div.bottom-left {\n      justify-content: start;\n      align-items: flex-end;\n    }\n    \n    div.center-right {\n      justify-content: flex-end;\n      align-items: center;\n    }\n    \n    div.top-right {\n      justify-content: flex-end;\n      align-items: flex-start;\n    }\n   \n    div.bottom-right {\n      justify-content: flex-end;\n      align-items: flex-end;\n    }\n\n    .bottom  {\n        align-content: end;\n    }\n    .start {\n       align-content: start;\n       text-align: left;\n    }\n    .end {\n      align-content: end;\n      text-align: right;\n    }\n    .center {\n       align-content: center;\n       text-align: center;\n    }\n    .fill {\n       text-align: justify;\n    }\n    @media screen\n      and (max-width: 767px)\n      and (min-width: 375px){\n          :root {\n        --color-error: #B00020;\n        --color-primary: #005AF0;\n    }\n    amp-story {\n        color: white;\n        border: none;\n    }\n    .bottom  {\n        align-content: end;\n    }\n    .start {\n       align-content: start;\n       text-align: left;\n    }\n    .end {\n       align-content: end;\n      text-align: right;\n    }\n    .center {\n       align-content: center;\n       text-align: center;\n    }\n    .fill {\n       text-align: justify;\n    }\n  }\n\n    </style>\n    <script async src=\"https://cdn.ampproject.org/v0/amp-video-0.1.js\" custom-element=\"amp-video\">\n    </script>\n    <script async src=\"https://cdn.ampproject.org/v0/amp-story-1.0.js\" custom-element=\"amp-story\">\n    </script>\n    <script async src=\"https://cdn.ampproject.org/v0/amp-font-0.1.js\" custom-element=\"amp-font\">\n    </script>\n    <script async src=\"https://cdn.ampproject.org/v0/amp-analytics-0.1.js\" custom-element=\"amp-analytics\">\n    </script>\n    <script async src=\"https://cdn.ampproject.org/v0/amp-iframe-0.1.js\" custom-element=\"amp-iframe\">\n    </script>\n    <script async src=\"https://cdn.ampproject.org/v0.js\"></script>\n    <meta content=\"width=device-width,minimum-scale=1,initial-scale=1\" name=\"viewport\">\n    <meta charset=\"utf-8\">\n    <link href=\"https://ampstor.app/story?id=YKUnA-yA2\" rel=\"canonical\">\n    <link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\">\n    <link href=\"https://fonts.googleapis.com/css?family=Oswald\" rel=\"stylesheet\">\n    <link href=\"https://fonts.googleapis.com/css?family=Quicksand\" rel=\"stylesheet\">\n    <link href=\"https://fonts.googleapis.com/css?family=Playfair Display\" rel=\"stylesheet\">\n  </head>\n  <body>\n    <amp-story standalone title=\"DIY Template\" publisher=\"\" publisher-logo-src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/ampstor%2Famp-logo.png?alt=media&token=bc85fbd1-bf48-4891-b09f-6bf14e8d4e3b\" poster-portrait-src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/ampstor-grey-background?alt=media&token=d4bbdc24-8f27-4404-9b8a-b54d804212de\">\n      <amp-story-page id=\"6h3NzwrLvJLJ\">\n        <amp-story-grid-layer template=\"fill\">\n          <amp-img height=\"1024\" src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/users%2FDIWpCUo7OgStZM0s4pmd70Q0e753%2Fimages%2F05.jpg?alt=media&token=3c032b25-3a62-4c5b-9d98-6918e2b934f7\" width=\"1024\" class=\"image-fit-cover\" style=\"color: #FFFFFF;opacity: 1;object-fit: cover;\">\n          </amp-img>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer class=\"top\" template=\"vertical\">\n          <div style=\"\">\n            <p style=\"color: #000000;opacity: 1;font-family: Quicksand;font-size: 1em;text-align: center;font-weight: bold;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"0.5s\">\n              D I Y \n            </p>\n          </div>\n          <div style=\"\">\n            <p style=\"color: #000000;opacity: 1;font-family: Playfair Display;font-size: 1.75em;text-align: center;margin-left: 40px;margin-right: 30px;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1s\">\n              \n            </p>\n          </div>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer class=\"bottom\" template=\"vertical\">\n          <div style=\"\">\n            <p style=\"color: #ffffff;opacity: 1;font-family: Roboto;font-size: 0.0625em;text-align: center;border-color: #f9b852;border-width: 3px;border-bottom-style: solid;margin-left: 90px;margin-right: 90px;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1.5s\">\n              \n            </p>\n          </div>\n          <div style=\"\">\n            <p style=\"background-color: ;color: ;opacity: 1;font-family: Quicksand;font-size: 1em;text-align: center;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1.5s\">\n              January 01, 2020\n            </p>\n          </div>\n        </amp-story-grid-layer>\n      </amp-story-page>\n      <amp-story-page id=\"qKy5ZGJFRVtM\">\n        <amp-story-grid-layer template=\"fill\">\n          <amp-img height=\"1024\" src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/images%2FOBBjxIsNP6gZib8d3rJVXWq0gAC3%2Fwhite.png?alt=media&token=1911dedf-09f6-494f-af5b-c49c1bab151d\" width=\"1024\" class=\"image-fit-cover\" style=\"color: #FFFFFF;opacity: 1;object-fit: cover;\">\n          </amp-img>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer template=\"fill\">\n          <amp-img height=\"1024\" src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/images%2FOBBjxIsNP6gZib8d3rJVXWq0gAC3%2Ffirst.png?alt=media&token=c66f787c-3ee0-4dba-997f-84263e659e1d\" width=\"1024\" class=\"image-fit-cover\" style=\"color: #FFFFFF;opacity: 1;object-fit: cover;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"0.7s\">\n          </amp-img>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer class=\"top\" template=\"vertical\">\n          <div style=\"\">\n            <p style=\"color: #242424;opacity: 1;font-family: Playfair Display;font-size: 1.5625em;text-align: center;font-weight: bold;margin-bottom: 10px;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"0.5s\">\n              Material:\n            </p>\n          </div>\n          <div style=\"\">\n            <p style=\"color: #5d5c5c;opacity: 1;font-family: Quicksand;font-size: 1.25em;text-align: center;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1s\">\n              3 filler flower sprigs\n            </p>\n          </div>\n          <div style=\"\">\n            <p style=\"color: #5d5c5c;opacity: 1;font-family: Quicksand;font-size: 1.25em;text-align: center;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1.5s\">\n              2 pieces of greenery\n            </p>\n          </div>\n          <div style=\"\">\n            <p style=\"color: #5d5c5c;opacity: 1;font-family: Quicksand;font-size: 1.25em;text-align: center;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"2s\">\n              1 main flower\n            </p>\n          </div>\n        </amp-story-grid-layer>\n      </amp-story-page>\n      <amp-story-page id=\"PFROQMu5PySi\">\n        <amp-story-grid-layer template=\"fill\">\n          <amp-img height=\"1024\" src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/images%2FOBBjxIsNP6gZib8d3rJVXWq0gAC3%2Fdiy3.png?alt=media&token=69b627f1-67e0-4ece-9b31-acaeaea2ceab\" width=\"1024\" class=\"image-fit-cover\" style=\"color: #FFFFFF;opacity: 1;object-fit: cover;\">\n          </amp-img>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer class=\"top\" template=\"vertical\">\n          <div style=\"\">\n            <p style=\"color: #ffffff;opacity: 1;font-family: Playfair Display;font-size: 2.1875em;text-align: center;margin-top: 100px;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1s\">\n              Cut and Arrange Your Florals\n            </p>\n          </div>\n          <div style=\"\">\n            <p style=\"color: #ffffff;opacity: 1;font-family: Quicksand;font-size: 1.125em;text-align: center;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1.5s\">\n              Remove any unnecessary leaves, and cut extra long stems down. \n            </p>\n          </div>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer class=\"top\" template=\"vertical\">\n          <div style=\"\">\n            <p style=\"color: #ffffff;opacity: 1;font-family: Oswald;font-size: 0.875em;text-align: center;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"0.5s\">\n              - F I R S T -\n            </p>\n          </div>\n        </amp-story-grid-layer>\n      </amp-story-page>\n      <amp-story-page id=\"df2Nd_eX8SAi\">\n        <amp-story-grid-layer template=\"fill\">\n          <amp-img height=\"1024\" src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/images%2FOBBjxIsNP6gZib8d3rJVXWq0gAC3%2Fwhite.png?alt=media&token=1911dedf-09f6-494f-af5b-c49c1bab151d\" width=\"1024\" class=\"image-fit-cover\" style=\"color: #FFFFFF;opacity: 1;object-fit: cover;\">\n          </amp-img>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer template=\"fill\">\n          <amp-img height=\"1024\" src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/images%2FOBBjxIsNP6gZib8d3rJVXWq0gAC3%2Fattach.png?alt=media&token=6254838c-1833-4b36-9891-5aa63c9d655d\" width=\"1024\" class=\"image-fit-cover\" style=\"color: #FFFFFF;opacity: 1;object-fit: cover;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"0.7s\">\n          </amp-img>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer class=\"top\" template=\"vertical\">\n          <div style=\"\">\n            <p style=\"color: #242424;opacity: 1;font-family: Playfair Display;font-size: 1.75em;text-align: center;font-weight: bold;margin-bottom: 10px;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"0.5s\">\n              Attach Your Greenery\n            </p>\n          </div>\n          <div style=\"\">\n            <p style=\"color: #5d5c5c;opacity: 1;font-family: Quicksand;font-size: 1.125em;text-align: center;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1s\">\n              Take the sprigs of greenery you selected and wire one at a time along one half of the metal hoop. Wrap the wire along the length of each stems, making sure to lift leaves.\n            </p>\n          </div>\n        </amp-story-grid-layer>\n      </amp-story-page>\n      <amp-story-page id=\"blfn_ncQB_P1\">\n        <amp-story-grid-layer template=\"fill\">\n          <amp-img height=\"1024\" src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/images%2FOBBjxIsNP6gZib8d3rJVXWq0gAC3%2Fwhite.png?alt=media&token=1911dedf-09f6-494f-af5b-c49c1bab151d\" width=\"1024\" class=\"image-fit-cover\" style=\"color: #FFFFFF;opacity: 1;object-fit: cover;\">\n          </amp-img>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer template=\"fill\">\n          <amp-img height=\"1024\" src=\"https://firebasestorage.googleapis.com/v0/b/ampstor.appspot.com/o/images%2FOBBjxIsNP6gZib8d3rJVXWq0gAC3%2Fflower.png?alt=media&token=c5fd927a-855e-42bf-8340-c734e82261e4\" width=\"1024\" class=\"image-fit-cover\" style=\"color: #FFFFFF;opacity: 1;object-fit: cover;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"0.7s\">\n          </amp-img>\n        </amp-story-grid-layer>\n        <amp-story-grid-layer class=\"top\" template=\"vertical\">\n          <div style=\"\">\n            <p style=\"color: #242424;opacity: 1;font-family: Playfair Display;font-size: 1.875em;text-align: left;font-weight: bold;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"0.5s\">\n              Place the Filler Flowers\n            </p>\n          </div>\n          <div style=\"\">\n            <p style=\"color: #5d5c5c;opacity: 1;font-family: Quicksand;font-size: 0.9375em;text-align: left;\" animate-in=\"fade-in\" animate-in-duration=\"1s\" animate-in-delay=\"1s\">\n              Take the smaller blooms you selected and begin wiring them into the sparser spots of the wreath. Use the same method you did for the greenery, but avoid wrapping the entire flower.\n            </p>\n          </div>\n        </amp-story-grid-layer>\n      </amp-story-page>\n    </amp-story>\n  </body>\n</html>",
     "canonical-url": false
   },
   "pages": {
@@ -321,7 +338,7 @@
     "page1.html": {
       "settings": {
         "title": "historia de parras",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -756,6 +773,96 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Page 2",
+        "order": 1,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "80px",
+            ".brand-name": {
+              "color": "@primaryColor",
+              "margin": "0"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "400",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            ".navbar": {
+              "min-height": "80px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "margin-right": "0",
+              "padding": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": ".667em 1em !important"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 0"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0.5rem 0 !important",
+                "margin": "0 0 10px !important"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Mostrar Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Altura Logo\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"45\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Ancho Logo\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"45\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Mostrar Marca\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Mostrar Botón(es)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked=\"\">\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\">Izquierda</option>\n            <option value=\"right\" selected=\"\">Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Color Menú &quot;Hamburguesa&quot;\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo-retro-pagina-vectorizacion-min-90x90.png\" layout=\"responsive\" width=\"45\" height=\"45\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo-retro-pagina-vectorizacion-min-90x90.png\" alt=\"Mobirise\" title=\"\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-5\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\">PARRAS PIZZA CLUB</p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-primary dropdown-toggle\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\" data-app-placeholder=\"Type Text\">\n                        Mobirise AMP</a>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"text-primary dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a>\n                        <a class=\"text-primary dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a>\n                    </div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Servicios</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"page1.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Sobre Nosotros</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                  Contacto\n                </a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "s3fnbRRqt3",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu2-p"
         }
       ]
     }
